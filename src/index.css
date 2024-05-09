@@ -1,0 +1,81 @@
+@import url("../node_modules/modern-normalize/modern-normalize.css");
+
+:root {
+  --font-family: "Roboto", sans-serif;
+
+  --grey: #f3f3f3;
+  --lightGrey: #fbfbfb;
+  --red: #f03f3b;
+  --lightRed: #f03f3b33;
+  --navyBlue: #11101c;
+  --green: #38cd3e;
+
+  --transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  --regular: 400;
+  --medium: 500;
+  --bold: 700;
+}
+
+body {
+  font-family: var(--font-family);
+  margin: 0;
+  background: var(--lightGrey);
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+svg {
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+li {
+  font-family: var(--font-family);
+  color: var(--black);
+  font-style: normal;
+  list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.list {
+  list-style-type: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+  font-family: var(--font-family);
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border: none;
+  outline: none;
+  background: none;
+  cursor: pointer;
+}
+
+.container {
+  width: 100%;
+  max-width: 1440px;
+  min-width: 320px;
+  margin: 0 auto;
+  padding: 0 128px;
+}

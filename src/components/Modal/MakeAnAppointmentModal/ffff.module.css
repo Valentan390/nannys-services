@@ -1,0 +1,10 @@
+.hh {
+  display: flex;
+  gap: 8px;
+  justify-content: start;
+  align-items: center;
+  width: 100%;
+
+  row-gap: 16px;
+  column-gap: 8px;
+}
